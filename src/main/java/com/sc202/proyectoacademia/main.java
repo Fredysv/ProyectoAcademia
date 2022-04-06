@@ -16,7 +16,7 @@ public class main {
      */
     public static void main(String[] args) {
             System.out.println("Bienvenido al Instituto de Idiomas de Costa Rica ,favor seleccione la opcion que de sea realizar:");
-            Integer opcion = Integer.parseInt(JOptionPane.showInputDialog("favor seleccione la opcion que de sea realizar:"));
+            Integer opcion = Integer.parseInt(JOptionPane.showInputDialog("favor seleccione la opcion que de sea realizar \n Nuevo ingreso: 1 \n Otra cosa 2:"));
 
             //Modulo de Opciones e Idiomas
         if (1 == opcion) {
